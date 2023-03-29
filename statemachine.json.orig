@@ -1,0 +1,10 @@
+{
+    "StartAt": "HelloWorld",
+    "States": {
+        "HelloWorld": {
+            "Type": "Task",
+            "Resource": "${HelloWorldFunctionArn}",
+            "End": true
+        }
+    }
+}

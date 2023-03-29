@@ -1,0 +1,15 @@
+Resources:
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: function.lambda_handler
+      Runtime: python3.8
+      CodeUri: .
+      FunctionName: HelloWorldFunction
+
+  HelloWorldStateMachine:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      DefinitionUri: statemachine.json
+      DefinitionSubstitutions:
+        HelloWorldFunctionArn: !GetAtt HelloWorldFunction.Arn

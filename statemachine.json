@@ -1,0 +1,10 @@
+{
+    "StartAt": "HelloWorld",
+    "States": {
+        "HelloWorld": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:ca-central-1:123456789012:function:HelloWorldFunction",
+            "End": true
+        }
+    }
+}
