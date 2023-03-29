@@ -3,7 +3,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: function.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.10
       CodeUri: .
       FunctionName: HelloWorldFunction
 
