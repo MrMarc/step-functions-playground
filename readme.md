@@ -16,7 +16,7 @@ Will start the lambdas. EAGER means that all the lambdas will be started and war
 
 The `-d` allows connection for debugging on port 5890
 
-I recommend doing this step on its own to validate that you can in fact debug the lambda on its own. There are different setup steps for VSCode and PyCharm (or other jetbrains products).
+I recommend doing this step on its own to validate that you can debug the lambda on its own. There are different setup steps for VSCode and PyCharm (or other jetbrains products).
 
 ## Step Functions Configuration File
 
