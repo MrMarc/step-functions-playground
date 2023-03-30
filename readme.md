@@ -23,6 +23,8 @@ I recommend doing this step on its own to validate that you can in fact debug th
 https://docs.aws.amazon.com/step-functions/latest/dg/sfn-local-config-options.html
 See the repository for a sample file - this is a minimal set
 
+LAMBDA_ENDPOINT=http://host.docker.internal:3001 is needed for MACOS version of Docker.
+
 ## Step Functions JSON file
 
 NOTE All lambdas MUST have arns they can't use the CloudFormation reference...
