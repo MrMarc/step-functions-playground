@@ -62,3 +62,9 @@ Using the arn created in step 4, run the state machine.
 NOTE: Each new execution requires a new name.
 
 If you have remote debugging set up for each lambda, you will be able to connect to the lambda with your debugger when that lambda is invoked.
+
+## NEXT STEPS
+
+https://aws.amazon.com/blogs/compute/mocking-service-integrations-with-aws-step-functions-local/
+
+Mock AWS Services
